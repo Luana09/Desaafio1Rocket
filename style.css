@@ -1,0 +1,180 @@
+body{
+    background-color: #0F0D13;
+}
+
+.card1{
+    width: 266px;
+    height: 498px;
+    background-color: #2a2141;
+    top: 66px;
+    left: 191px;
+    padding: 38px;
+    position: absolute;
+    border-radius: 9px;
+    display: block;
+   
+}
+
+.card1 img{
+    width: 189px;
+    height: 189px;
+   margin: 30px  38px 30px 38px ;
+}
+
+
+
+
+.nomeMusica{
+    display: block;
+    flex-direction: row;
+    padding: 0px;
+
+}
+.nomeMusica h1{
+    font-size: 24px;
+    color: #e1e1e6;
+    font-weight: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banda{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #e1e1e6;
+    line-height: 100%;
+    text-align: center;
+    margin: 9px;
+    opacity: 0.5;
+}
+.imgPlayer  img{
+    width: 189px;
+    height: 28px;
+    
+}
+
+.barra img{
+    width: 189px;
+    height: 38px;
+    margin-top: 20px;
+}
+.card2{
+    width: 357px;
+    height: 266px;
+     background-color: #2a2141;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    left: 600px;
+    right: 189px ;
+    top: 66px;
+    border-radius: 9px;
+}
+.caixa2{
+    width: 300px;
+    height: 84px;
+    margin: 28px 28px 0 28px;
+}
+
+
+.card2 img{
+    width: 84px;
+    height: 84px;
+    justify-content: flex-start;
+}
+
+.barra2 img{
+    width: 300px;
+    height: 38px;
+    margin: 28px;
+}
+
+.imgPlayer2 img {
+    width: 200px ;
+    height: 28px;
+    margin-top: 28px;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding: 0 56px;
+}
+
+.caixaMusica{
+    width: 187px;
+    height: 52px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px ;
+    margin-left: 15px;
+}
+
+.nomeMusica2 h1{
+    font-size: 24px;
+    color: #e1e1e6;
+    font-weight: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.card3{
+   width: 357px;
+   height: 199px; 
+   background-color: #2a2141;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    left: 600px;
+    right: 189px ;
+    top: 390px;
+    border-radius: 9px;
+}
+
+.caixa3 {
+   width: 300px;
+   height: 84px; 
+   margin: 25px 28px 0 28px;
+}
+
+.caixa3 img{
+    width: 84px;
+    height: 84px;
+    justify-content: flex-start;
+}
+
+.caixaMusica3{
+    width: 187px;
+    height: 52px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px ;
+    margin-left: 15px;
+
+
+}
+.nomeMusica3 h1{
+    font-size: 24px;
+    color: #e1e1e6;
+    font-weight: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.imgPlayer3 img {
+    width: 200px ;
+    height: 28px;
+   margin: 28px 28px 28px 28px;
+   padding: 10px 56px 0 56px;
+}
+
+@media screen and (max-width: 480px){
+    .card1 , .card2 , .card3 {
+
+        position: static;
+        margin: 15%;
+    }
+}
+
+
